@@ -11,16 +11,55 @@ function Feed() {
       </div>
 
       <TweetBox />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
 
-
+      <Post displayName="Salman Arefin"
+        username="salman_arefin"
+        verified
+        text="The player that gets Potter out of this mess will have a fan in me forever"
+        image="https://pbs.twimg.com/media/FpbG_eHXgAIRdgI?format=jpg&name=large"
+      />
+      <Post displayName="Sadia Tasnim"
+        username="tasnim_sharna"
+        verified
+        text="Lets make a twitter clone"
+        image="https://blog.logrocket.com/wp-content/uploads/2020/08/8-ways-deploy-react-app-free.png"
+      />
+      <Post displayName="Salman Arefin"
+        username="salman_arefin"
+        verified
+        text="The player that gets Potter out of this mess will have a fan in me forever"
+        image="https://pbs.twimg.com/media/FpbG_eHXgAIRdgI?format=jpg&name=large"
+      />
+      <Post displayName="Sadia Tasnim"
+        username="tasnim_sharna"
+        verified
+        text="Lets make a twitter clone"
+        image="https://blog.logrocket.com/wp-content/uploads/2020/08/8-ways-deploy-react-app-free.png"
+      />
+      <Post displayName="Salman Arefin"
+        username="salman_arefin"
+        verified
+        text="The player that gets Potter out of this mess will have a fan in me forever"
+        image="https://pbs.twimg.com/media/FpbG_eHXgAIRdgI?format=jpg&name=large"
+      />
+      <Post displayName="Sadia Tasnim"
+        username="tasnim_sharna"
+        verified
+        text="Lets make a twitter clone"
+        image="https://blog.logrocket.com/wp-content/uploads/2020/08/8-ways-deploy-react-app-free.png"
+      />
+      <Post displayName="Salman Arefin"
+        username="salman_arefin"
+        verified
+        text="The player that gets Potter out of this mess will have a fan in me forever"
+        image="https://pbs.twimg.com/media/FpbG_eHXgAIRdgI?format=jpg&name=large"
+      />
+      <Post displayName="Sadia Tasnim"
+        username="tasnim_sharna"
+        verified
+        text="Lets make a twitter clone"
+        image="https://blog.logrocket.com/wp-content/uploads/2020/08/8-ways-deploy-react-app-free.png"
+      />
     </div>
   );
 }

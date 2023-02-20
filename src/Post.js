@@ -7,7 +7,7 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 
-function Post(displayName, username, verified, text, image) {
+function Post({ displayName, username, verified, text, image }) {
   return (
     <div className="post">
       <div className="post_avatar">
@@ -18,17 +18,17 @@ function Post(displayName, username, verified, text, image) {
         <div className="post_header">
           <div className="post_headerText">
             <h3>
-              Salman Arefin {" "}
+              {displayName} {" "}
               <span className="post_headerIcon">
-                <VerifiedUserIcon className="post_badge" /> @salman_arefin
+                <VerifiedUserIcon className="post_badge" /> @{username}
               </span>
             </h3>
           </div>
           <div className="post_headerDescription">
-            <p> Lets make a twitter clone</p>
+            <p> {text}</p>
           </div>
         </div>
-        <img src="https://blog.logrocket.com/wp-content/uploads/2020/08/8-ways-deploy-react-app-free.png" alt="" />
+        <img src={image} alt="" />
         <div className="post_footer">
           <FavoriteBorderIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
