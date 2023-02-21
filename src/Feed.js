@@ -6,7 +6,7 @@ import Post from "./Post";
 function Feed() {
   return (
     <div className="feed">
-      <div className="feed_header">
+      <div className="feedHeader">
         <h2>Home</h2>
       </div>
 

@@ -10,26 +10,26 @@ import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 function Post({ displayName, username, verified, text, image }) {
   return (
     <div className="post">
-      <div className="post_avatar">
+      <div className="postAvatar">
         <Avatar src="https://med.gov.bz/wp-content/uploads/2020/08/dummy-profile-pic.jpg" />
       </div>
 
-      <div className="post_body">
-        <div className="post_header">
-          <div className="post_headerText">
+      <div className="postBody">
+        <div className="postHeader">
+          <div className="postHeaderText">
             <h3>
               {displayName} {" "}
-              <span className="post_headerIcon">
-                <VerifiedUserIcon className="post_badge" /> @{username}
+              <span className="postHeaderIcon">
+                <VerifiedUserIcon className="postBadge" /> @{username}
               </span>
             </h3>
           </div>
-          <div className="post_headerDescription">
+          <div className="postHeaderDescription">
             <p> {text}</p>
           </div>
         </div>
         <img src={image} alt="" />
-        <div className="post_footer">
+        <div className="postFooter">
           <FavoriteBorderIcon fontSize="small" />
           <RepeatIcon fontSize="small" />
           <PublishIcon fontSize="small" />

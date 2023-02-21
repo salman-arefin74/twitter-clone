@@ -1,8 +1,8 @@
-.Widgets{
+.widgets{
     flex: 0.3;
 }
 
-.widgets_input{
+.widgetsInput{
     display: flex;
     align-items: center;
     background-color: var(--twitter-background);
@@ -12,16 +12,16 @@
     margin-left: 20px;
 }
 
-.widgets_input > input {
+.widgetsInput > input {
     border: none;
     background-color: var(--twitter-background);
 }
 
-.widgets_searchIcon{
+.widgetsSearchIcon{
     color: gray;
 }
 
-.widgets_widgetContainer{
+.widgetsWidgetContainer{
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
@@ -29,7 +29,7 @@
     border-radius: 20px;
 }
 
-.widgets_widgetContainer > h2 {
+.widgetsWidgetContainer > h2 {
     font-size: 18px;
     font-weight: 800;
 }
