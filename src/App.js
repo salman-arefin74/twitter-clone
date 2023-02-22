@@ -4,10 +4,14 @@ import Feed from "./Feed";
 import Widgets from "./Widgets";
 import { Routes, Route } from 'react-router-dom'
 import Explore from './Explore';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="app">
+      <Helmet>
+        <title>Twitter</title>
+      </Helmet>
       <Sidebar />
 
       <Routes>
