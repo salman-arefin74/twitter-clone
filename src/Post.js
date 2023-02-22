@@ -7,11 +7,11 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
 
-function Post({ displayName, username, verified, text, image }) {
+function Post({ displayName, username, verified, text, image, avatar }) {
   return (
     <div className="post">
       <div className="postAvatar">
-        <Avatar src="https://med.gov.bz/wp-content/uploads/2020/08/dummy-profile-pic.jpg" />
+        <Avatar src={avatar} />
       </div>
 
       <div className="postBody">
@@ -20,7 +20,7 @@ function Post({ displayName, username, verified, text, image }) {
             <h3>
               {displayName} {" "}
               <span className="postHeaderIcon">
-                <VerifiedUserIcon className="postBadge" /> @{username}
+                {verified && <VerifiedUserIcon className="postBadge" />} @{username}
               </span>
             </h3>
           </div>
