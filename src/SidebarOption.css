@@ -24,3 +24,8 @@
 .sidebarOption--active{
     color: var(--twitter-color);
 }
+
+.sidebarLink {
+    text-decoration: none;
+    color: black;
+}
