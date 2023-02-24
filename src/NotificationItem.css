@@ -1,0 +1,44 @@
+.notification{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--twitter-background);
+  padding-bottom: 10px;
+}
+
+.notificationBody{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid var(--twitter-background);
+}
+
+.notificationFooter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.notificationHeaderDescription{
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.notificationHeaderText > h3{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.notificationBadge{
+  font-size: 14px !important;
+  color: var(--twitter-color);
+}
+
+.notificationHeaderIcon{
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.notificationAvatar{
+  padding: 20px;
+}
+
